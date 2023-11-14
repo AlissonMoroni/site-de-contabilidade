@@ -1,4 +1,69 @@
 *{
-    color: white;
-    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+.img-logo{
+    height: 60px;
+    width: 142px;
+    display: block;
+    background: url(imagens/logoBs.jpeg) no-repeat;
+    background-size: contain;
+    margin: 20px;
+}
+
+header{
+    background: #101020;
+}
+
+li{
+    list-style:none;
+    
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 0 60px;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.nav-link{
+    transition: 0.5s ease;
+}
+
+.nav-link:hover{
+    color: #0088d2;
+}
+
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background: #fff;
+    transition: 0.3s ease-in-out;
+
+}
+
+
