@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .img-logo{
-    height: 60px;
+    height: 61px;
     width: 142px;
     display: block;
     background: url(imagens/logoBs.jpeg) no-repeat;
@@ -34,6 +34,7 @@ header{
     align-items:center;
     justify-content: space-evenly;
     padding: 0 50px;
+    margin-bottom: 0;
 }
 
 .logo{
@@ -158,7 +159,7 @@ button{
     margin: 0 auto;
 }
 .backform{
-    background: #013232;
+    background: #fef8f1;
 }
 
 footer{
