@@ -181,13 +181,17 @@ footer p {
     
 }
 
-.hidden{
+.hidden {
     opacity: 0;
-    
+    filter: blur(15px);
+    transition: all 2s;
     
 }
 
-.show{
+.show {   
     opacity: 1;
+    filter: blur(0);
+    transition: all 2s;
+    
     
 }
