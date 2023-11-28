@@ -16,6 +16,12 @@
 
 header{
     background: #101020;
+    font-size: 20px;
+}
+
+main{
+    height: 80%;
+   
 }
 
 .nav.item{
@@ -191,7 +197,16 @@ footer p {
 .show {   
     opacity: 1;
     filter: blur(0);
-    transition: all 2s;
-    
-    
+    transition: all 2s;   
+   
 }
+
+#footcopyright{
+display: flex;
+justify-content: center;
+background-color: var(--color-neutral-0);
+font-size: 1.1rem;
+padding: 1.5rem;
+font-weight: 100%;
+}
+
