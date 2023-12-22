@@ -17,6 +17,6 @@ elements.forEach( (element) => myObsever.observe(element))
 
 
 function insta(){
-    window.location.href = "https://www.instagram.com/alisson_moroni/";
+    window.location.href = "#";
 }
 document.getElementById("insta").addEventListener("click", insta);
